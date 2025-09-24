@@ -1,81 +1,138 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Profil Mozza Audya</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      background: linear-gradient(135deg, #1e40af, #facc15); /* biru ke kuning */
-      min-height: 100vh;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .card {
-      background: rgba(255 255 255 / 0.9);
-      border-radius: 1.5rem;
-      box-shadow: 0 10px 25px rgb(0 0 0 / 0.15);
-      max-width: 700px;
-      margin: 2rem auto;
-      padding: 2rem 2.5rem;
-    }
-    h1, h2, h3 {
-      color: #1e40af; /* biru gelap */
-    }
-    ul {
-      list-style-type: disc;
-      padding-left: 1.25rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Web Mozaa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+            border: 3px solid #007bff;
+        }
+        h1, h2 {
+            color: #007bff;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <main class="card">
-    <header class="text-center mb-8">
-      <h1 class="text-4xl font-bold mb-1">Mozza Audya</h1>
-      <p class="text-yellow-600 text-lg font-semibold">Kelas: X RPL 1</p>
+    <header>
+        <h1>Profil Saya: Mozaa</h1>
     </header>
 
-    <section class="mb-8">
-      <h2 class="text-3xl font-semibold mb-3 border-b-4 border-yellow-400 pb-1">Profesi</h2>
-      <p>
-        Saya bekerja sebagai seorang <strong>data analis</strong>. Data analis adalah seseorang yang bertugas mengumpulkan, mengolah, dan menganalisis data untuk membantu perusahaan atau organisasi membuat keputusan yang tepat dan strategis. Dengan menggunakan berbagai alat dan teknik, data analis mengubah data mentah menjadi informasi yang berguna untuk meningkatkan kinerja dan hasil bisnis.
-      </p>
-    </section>
+    <div class="container">
+        <img src="foto-profil.jpg" alt="Foto Profil Mozaa" class="profile-img">
+        <!-- Ganti "IMG-20250623-WA0005.jpg" dengan path foto Anda yang sebenarnya. Jika belum ada, upload foto ke folder yang sama. -->
 
-    <section class="mb-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div>
-        <h3 class="text-2xl font-semibold mb-3">Kelebihan</h3>
-        <ul>
-          <li>Percaya diri</li>
-          <li>Suka hal baru</li>
-          <li>Dapat diandalkan</li>
-          <li>Jujur</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-2xl font-semibold mb-3">Kekurangan</h3>
-        <ul>
-          <li>Sulit mengambil keputusan</li>
-          <li>Terlalu introvert</li>
-          <li>Belum bisa menguasai bahasa asing</li>
-        </ul>
-      </div>
-    </section>
+        <div class="section">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang pelajar dari kelas X RPL 1. Saya bersekolah di SMK Negeri 7 Batam. Saya mengambil jurusan ini karena keinginan saya sendiri. Saya anak pertama dari 4 bersaudara. Sebelumnya, saya pernah bekerja part-time.</p>
+        </div>
 
-    <section>
-      <h3 class="text-3xl font-semibold mb-4 border-b-4 border-yellow-400 pb-1">Keahlian</h3>
-      <ul class="space-y-4">
-        <li>
-          <strong>Komunikasi:</strong> Menyampaikan dan menerima informasi dengan jelas.
-        </li>
-        <li>
-          <strong>Kerja Sama:</strong> Dapat bekerja sama dengan orang lain secara efektif.
-        </li>
-        <li>
-          <strong>Adaptabilitas:</strong> Dapat menyesuaikan diri dengan perubahan.
-        </li>
-      </ul>
-    </section>
-  </main>
+        <div class="section">
+            <h2>Hobi</h2>
+            <ul>
+                <li>Bermain bola voli</li>
+                <li>Berenang</li>
+                <li>Baca buku</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Riwayat Sekolah</h2>
+            <ul>
+                <li>SD Negeri 006 Batam</li>
+                <li>SMP Negeri 28 Batam</li>
+                <li>SMK Negeri 7 Batam (Saat ini, kelas X RPL 1)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skill</h2>
+            <h3>Bahasa Pemrograman</h3>
+            <p>Saya sedang belajar memahami dasar-dasar pemrograman, terutama yang terkait dengan pengelolaan data dan sistem informasi.</p>
+
+            <h3>Komunikasi Lisan dan Tertulis</h3>
+            <p>Saya dapat menyampaikan informasi secara jelas baik lisan maupun tertulis. Komunikasi yang efektif bisa mempererat hubungan antarindividu, baik dalam konteks pribadi, profesional, atau sosial. Tanpa komunikasi yang baik, bisa terjadi kesalahpahaman atau konflik.</p>
+        </div>
+
+        <div class="section">
+            <h2>Kelebihan</h2>
+            <ul>
+                <li><strong>Sedikit percaya diri:</strong> Saya memiliki sedikit kepercayaan diri untuk berbicara di depan atau saat berpresentasi untuk pengembangan diri.</li>
+                <li><strong>Jujur:</strong> Saya orang yang jujur dalam berbuat dan berucap. Karena jujur itu dari semua kunci untuk diri.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Kekurangan</h2>
+            <ul>
+                <li>Belum terlalu ahli dalam hal program karena masih dalam pembelajaran.</li>
+                <li>Kurangnya kemampuan dalam hal bahasa asing.</li>
+                <li>Sulit dalam mengambil keputusan dalam suatu hal tertentu.</li>
+            </ul>
+        </div>
+
+        <div class="social-links">
+            <h2>Hubungi Saya</h2>
+            <p><a href="https://wordpress.com" target="_blank">WordPress</a> | 
+               <a href="https://twitter.com" target="_blank">Twitter</a> | 
+               <a href="https://whatsapp.com" target="_blank">WhatsApp</a> | 
+               <a href="https://instagram.com" target="_blank">Instagram</a></p>
+            <p>Buat situs web atau blog gratis di <a href="https://wordpress.com" target="_blank">WordPress.com</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Profil Web Mozaa. Dibuat dengan HTML sederhana.</p>
+    </footer>
 </body>
-</html>
+                                                                                                                                                                             </html>
